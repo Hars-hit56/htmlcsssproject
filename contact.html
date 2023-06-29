@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage management website</title>
+    <link rel="stylesheet" href="ps1.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <section class="sub-container">
+        <div class="sub-header">
+            <nav>
+
+                
+                <div class="logo"><img src="image/WA0001-removebg-preview.png" alt=""> </div>
+                <div class="nav" id="nav">
+
+                    <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="ps1.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class='bx bx-menu' onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <h2>Contact</h2>
+    </section>
+    <!-- ------------------Location Detail------------------- -->
+    <section class="location">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57694.230254309965!2d74.5905362609796!3d25.341492393707327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2368c070a55%3A0xc92f70a42dcb5294!2sBhilwara%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1684341235748!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- ------------------Contact Detail------------------- -->
+    <section class="Contact-detail">
+        <div class="box">
+            <div class="box-contact">
+                <div>
+                    <i class='bx bxs-home'></i>
+                    <span>
+                        <h5>Xyz Road Abc Building</h5>
+                        <p>Banglore Karnataka Rd</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>Xyz Road Abc Building</h5>
+                        <p>Banglore Karnataka Rd</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bx-envelope'></i>
+                    <span>
+                        <h5>Xyz Road Abc Building</h5>
+                        <p>Banglore Karnataka Rd</p>
+                    </span>
+                </div>
+            </div>
+            <div class="box-contact">
+                <form action="">
+                <input type="text" placeholder="Enter your name">
+                <input type="email"placeholder="Enter email address">
+                <input type="text" placeholder="Enter your subject">
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button>Send Message</button>
+            </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- -------------------Footer---------------------- -->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum commodi perferendis
+            velit
+            debitis vel aut repellendus, dignissimos facere alias, consectetur asperiores minima nesciunt
+            consequuntur?
+        </p>
+        <div class="socialicon">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin'></i>
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Harshit Sharma</p>
+
+
+    </section>
+
+    <!-- ------------Javascript For Toggle Menu------------  -->
+    <script>
+        var nav = document.getElementById("nav");
+        function showMenu() {
+            nav.style.right = "0";
+        }
+        function hideMenu() {
+            nav.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

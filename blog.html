@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collage management website</title>
+    <link rel="stylesheet" href="ps1.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <section class="sub-container">
+        <div class="sub-header">
+            <nav>
+
+                <div class="logo"><img src="image/WA0001-removebg-preview.png" alt=""> </div>
+                <div class="nav" id="nav">
+
+                    <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="ps1.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class='bx bx-menu' onclick="showMenu()"></i>
+            </nav>
+        </div>
+        <h2>Our Certificated & Online Programe For 2023</h2>
+
+
+    </section>
+    <!-- ---------------Blog Page---------------- -->
+    <section class="Blog-Page">
+        <div class="box">
+            <div class="blog-left">
+                <img src="image/WA0009.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, in cumque recusandae eveniet
+                    eius nemo maxime eum harum esse quas quis ea tempora similique atque inventore minima eaque labore
+                    hic molestias magni vitae cum ullam ratione? Repudiandae, asperiores eaque! Sint vitae
+                    necessitatibus a veniam excepturi sequi magni exercitationem quo ad?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo vel odio perferendis temporibus
+                    rerum porro, libero quos quaerat atque eligendi praesentium, aliquid explicabo facere laborum
+                    voluptates repellendus? Facilis pariatur voluptatum doloremque debitis voluptatibus temporibus,
+                    assumenda quo saepe blanditiis repellendus! Vitae impedit adipisci reprehenderit? Deleniti eum, ea
+                    ex eveniet rem, odit autem ab consectetur velit quidem voluptatum, quod cum soluta! Modi vitae
+                    incidunt ullam neque consequatur assumenda iusto aliquid possimus asperiores dolore deleniti iure
+                    dolorum placeat fuga in, suscipit voluptatem, quibusdam ducimus corporis. Ratione?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos dolor deleniti fugiat
+                    distinctio placeat voluptates optio magnam tenetur, ipsum tempore repellendus, fuga adipisci
+                    laboriosam.
+               </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos totam ut vero, minima dolores quibusdam
+                    adipisci error rem libero commodi deleniti perferendis cumque consequatur eius iure animi esse
+                    quisquam illo, facere alias quis voluptate quos aut ex. Necessitatibus dolor ullam sed! Odit aperiam
+                    rem, corrupti reprehenderit eos culpa qui perferendis maxime libero necessitatibus facere recusandae
+                    tenetur quo voluptatum fugiat pariatur velit natus? Incidunt dolorum totam doloribus eos tempora vel
+                    voluptates, aliquam a veritatis eius, maiores illo necessitatibus! Sed maxime blanditiis assumenda
+                    iste non a dolor nihil ea quo molestias praesentium illum porro quisquam fugiat itaque magnam sunt
+                    corrupti quae, ducimus qui! Quae, laborum et minus dolor labore at quis eveniet eos quibusdam ex
+                    atque iure voluptates! Voluptates ex magnam debitis aperiam eligendi deleniti officiis eius!
+                </p>
+
+                <div class="blog-comment">
+                    <h3>Leave a comment</h3>
+                    <form class="blog-contant">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter email">
+                        <textarea rows="10" placeholder="Your Comment"></textarea>
+                        <button>Post Comment</button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine line</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>Autocard</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- -------------------Footer---------------------- -->
+    <section class="Footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum commodi perferendis velit
+            debitis vel aut repellendus, dignissimos facere alias, consectetur asperiores minima nesciunt consequuntur?
+        </p>
+        <div class="socialicon">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin'></i>
+        </div>
+        <p>Made with <i class='bx bx-heart'></i> by Harshit Sharma</p>
+
+
+    </section>
+
+    <!-- ------------Javascript For Toggle Menu------------  -->
+    <script>
+        var nav = document.getElementById("nav");
+        function showMenu() {
+            nav.style.right = "0";
+        }
+        function hideMenu() {
+            nav.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
